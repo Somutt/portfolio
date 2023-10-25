@@ -14,7 +14,18 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-size: ${({ theme }) => theme.font.sizes.default} ;
+    width: 100%;
+    height: 100%;
+    font-size: ${({ theme }) => theme.font.sizes.default};
+    font-family: ${({ theme }) => theme.font.family.primary};
+  }
+
+  a, a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
 `;

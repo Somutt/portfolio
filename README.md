@@ -1,1 +1,1 @@
-Example for styled components Next project with component example
+Portfolio website, developed with NextJS

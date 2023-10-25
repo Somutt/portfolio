@@ -19,4 +19,13 @@ export const theme = {
   media: {
     lteMedium: '(max-width: 768px)',
   },
+  transition: {
+    standard: 'all 250ms ease',
+    fontColor: 'color 250ms',
+    vartical: 'transform 250ms',
+    background: 'background-color 400ms',
+  },
+  transform: {
+    vertical: 'translateY(-3px)',
+  },
 } as const;
