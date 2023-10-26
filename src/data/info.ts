@@ -11,7 +11,7 @@ type InfoType = {
 };
 
 export const info: InfoType = {
-  bio: "Hi, I'm Samuel! I'm a Front-End developer with experience in React and Next, using JavaScript and TypeScript. Majoring in Systems and Digital Media at the Federal University of Ceará (UFC - Fortaleza/BR). Have a passion for games, animations, comics and coffe.",
+  bio: "Hi, I'm Samuel! I'm a Front-End developer with experience in React and Next, using JavaScript and TypeScript. Majoring in Systems and Digital Media at the Federal University of Ceará (UFC - Fortaleza/BR). Have a passion for games, animations, comics and coffee.",
   proficiencies: [
     'JavaScript',
     'TypeScript',

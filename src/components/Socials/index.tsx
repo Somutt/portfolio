@@ -1,4 +1,5 @@
 import * as Styled from './styles';
+import Link from 'next/link';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { socials } from '../../data/socials';
@@ -10,14 +11,14 @@ export const Socials = () => {
   return (
     <Styled.Container>
       {socials.map((social, index) => (
-        <a
+        <Link
           key={index}
           target='_blank'
           rel='noopener noreferrer'
           href={social.link}
         >
           <FontAwesomeIcon icon={social.icon} />
-        </a>
+        </Link>
       ))}
     </Styled.Container>
   );
