@@ -31,6 +31,7 @@ export const Base = ({ children }: BaseProps) => {
         <NavBar darkMode={darkMode} handleClick={toggleDarkMode} />
         {children}
         <Footer />
+        <i className='fa fa-instagram' />
       </div>
     </Styled.Container>
   );

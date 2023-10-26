@@ -31,8 +31,18 @@ export const Container = styled.div`
       color: unset;
     }
 
-    .link > h1 {
+    .link > h2 {
       font-size: ${theme.font.sizes.large};
+    }
+
+    @media ${theme.media.lteMedium} {
+      ul {
+        gap: 55px;
+      }
+
+      .link > h2 {
+        font-size: ${theme.font.sizes.big};
+      }
     }
   `}
 `;

@@ -32,7 +32,7 @@ export const NavBar = ({ darkMode, handleClick }: NavBarProps) => {
               className='link'
             >
               {!link.type && <p>{link.name}</p>}
-              {link.type && <h1>{link.name}</h1>}
+              {link.type && <h2>{link.name}</h2>}
             </Link>
           </li>
         ))}
