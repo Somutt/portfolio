@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
